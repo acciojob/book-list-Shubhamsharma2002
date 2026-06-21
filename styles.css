@@ -1,1 +1,95 @@
 /*  your css code here. If applicable */
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	background-color: #f8f9fa;
+	color: #333;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+	margin-top: 0;
+	color: #222;
+}
+
+.form-group {
+	margin-bottom: 30px;
+}
+
+.input-field {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button#submit {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button#submit:hover {
+	background-color: #0056b3;
+}
+
+/* Table styling mimicking Bootstrap styles requested */
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.table th, .table td {
+	padding: 12px;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+	background-color: #e9ecef;
+}
+
+/* Alternating zebra stripe look for class table-striped */
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Individual cell delete button styling */
+.delete {
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.delete:hover {
+	background-color: #bd2130;
+}
